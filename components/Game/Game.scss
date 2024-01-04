@@ -1,0 +1,127 @@
+
+
+.game{
+  background-color: #272937;
+  width: 100%;
+  padding-top: 5.8rem;
+  padding-bottom: 2.222rem;
+}
+
+.game__container-blocks{
+    display: flex;
+    align-items: center;
+}
+
+.game__title{
+    font-size: 3.555rem;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    margin-bottom: 0.39em;
+}
+
+.game__sport{
+    line-height: 1.5em;
+    opacity: 0.5;
+    color: #fff;
+    margin-bottom: 0.83rem;
+}
+
+.game__items{
+     display: flex;
+     margin-bottom: 2.5rem;
+}
+
+.game__item{
+    margin-bottom: 0.555em;
+}
+
+.game__block-info{
+    flex: 1 0 50%;
+}
+
+.game__block-img{
+    flex: 1 0 50%;
+    position: relative;
+     img{
+         max-width: 150%;
+         max-height: 150%;
+         object-fit: contain;
+         transform: translate(-7%, 5%);
+     }
+}
+
+.game__btn-join{
+    margin-right: 0.83rem;
+}
+
+.game__item {
+    margin-right: 1.38rem;
+     position: relative;
+     display: flex;
+     align-items: center;
+     margin-left: 15px;
+     &:before{
+         content: '';
+         display: block;
+         width: 10px;
+         height: 10px;
+         background-color: #F04451;
+         border-radius: 50%;
+         position: absolute;
+         margin-left: -15px;
+     }
+}
+
+.game__container-scroll{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+
+.game__effect-top{
+     position: absolute;
+     top: 0;
+     left: 0;
+     top: -75%;
+     left: -75%;
+}
+
+.game__effect-bottom{
+    position: absolute;
+    top: -10%;
+    right: 10%;
+}
+
+
+
+// fragments
+
+.game__fragment-black-big{
+    position: absolute;
+    top: 12.71%;
+    left: 3.3%;
+}
+
+.game__fragment-white-big{
+    position: absolute;
+    bottom: 0;
+    left: 3.3%;
+}
+
+.game__fragment-black-medium{
+    position: absolute;
+    bottom: 7.648%;
+    left: 35.0%;
+}
+
+.game__fragment-black-small{
+    position: absolute;
+    top: 11.501%;
+    right: 0;
+}
+
+
+
+

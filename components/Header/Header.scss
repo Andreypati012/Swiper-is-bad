@@ -1,0 +1,28 @@
+
+
+.header__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 3.38rem;
+    width: 100%;
+    position: fixed;
+    max-width: 76rem;
+    z-index: 10;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: 2.777rem;
+}
+
+.header__lists{
+    display: flex;
+     li{
+        padding: 1.11rem;
+     }
+}
+
+
+.header__btn-sing{
+    margin-right: 0.55rem;
+    border: 1px solid #0000;
+}
